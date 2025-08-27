@@ -1,12 +1,77 @@
-# React + Vite
+# 🌗 Theme Switcher (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Dark/Light Theme Switcher** built with **React + Vite + Tailwind CSS**.  
+This project demonstrates how to implement **theme toggling using React Context API** and Tailwind's `dark` mode.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🌞 Light Mode / 🌙 Dark Mode support
+- ⚡ Built with **Vite** for fast development
+- 🎨 Styled using **Tailwind CSS**
+- 🧩 Theme state managed with **React Context API**
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+theme-switcher/
+│── src/
+│ ├── components/
+│ │ ├── Card.jsx # Example card component
+│ │ ├── ThemeButton.jsx # Toggle button for theme
+│ ├── context/
+│ │ └── Theme.js # Theme context + provider
+│ ├── App.jsx # Root app with provider
+│ └── main.jsx # Entry point
+│── index.html
+│── tailwind.config.js
+│── package.json
+│── README.md
+
+
+---
+
+## ⚡ Installation & Setup
+
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/your-username/theme-switcher.git](https://github.com/AyushKumar2555/theme-change-react.git)
+   cd theme-switcher
+🎮 Usage
+
+Click the Toggle Theme button to switch between Light 🌞 and Dark 🌙 modes.
+
+The theme is applied globally using Tailwind's dark: classes.
+📸 Screenshot
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/37ef0d32-ff9d-4699-8428-dccaa59ec1e5" />
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/653f05ef-c8e7-4fcc-a5dc-436bb443035b" />
+
+🛠️ Tech Stack
+
+React (Vite)
+
+Tailwind CSS
+
+Context API
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature/your-feature)
+
+Commit your changes
+
+Push and create a PR
+
+📜 License
+
+This project is open-source under the MIT License.
+
+👨‍💻 Author
+
+Ayush Kumar
+🚀 Passionate about React & Frontend Development
