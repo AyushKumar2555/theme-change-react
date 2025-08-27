@@ -6,7 +6,7 @@ import ThemeBtn from './components/ThemeButton'
 function App() {
     const [themeMode,setThemeMode]=useState("light")
   const lightTheme = () => {
-      setThemeMode("light")
+      setThemeMode("lght")
     }
   const darkTheme = () => {
       setThemeMode("dark")
